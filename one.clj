@@ -18,4 +18,13 @@ true
             l_d (str l " and" " darkness")]
             (println (str "God also said let there be " l_d)))
 
+(let [a "aaa"]
+        (println a))
 
+(let [a "aaa"]
+        (let [a "AAA"]
+          (println a)))
+
+(let [a "a"]
+        (let []
+          (println a)))
