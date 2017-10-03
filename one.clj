@@ -34,3 +34,18 @@ true
 
 (def object "darkness")
 (println (str "God said let there be " object))
+
+(+ 4 (* 2 3))
+(+ 3 4 5 6)
+(/ 4)
++
+(get "abrakadabra" 0)
+((fn [who] (str "Hello, " who "!")) "Jani")
+((fn [name] (str "Welcome to Rivendell mr " name)) "Bjim")
+(def hello (fn [who] (str "Hello, " who "!")))
+(hello "handsome")
+((defn                                 ; Start a function definition:
+  hello                               ; name
+  "Gives out personalized greetings." ; a optional docstring
+  [who]                               ; parameters inside brackets
+  (str "Hello, " who "!")) "jim")
