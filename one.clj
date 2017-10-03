@@ -28,3 +28,9 @@ true
 (let [a "a"]
         (let []
           (println a)))
+
+(def object "light")
+(println (str "God said let there be " object))
+
+(def object "darkness")
+(println (str "God said let there be " object))
