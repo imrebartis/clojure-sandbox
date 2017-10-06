@@ -49,3 +49,20 @@ true
   "Gives out personalized greetings." ; a optional docstring
   [who]                               ; parameters inside brackets
   (str "Hello, " who "!")) "jim")
+
+((defn hypotenuse [x y]
+  (let [bla (* x x)
+        blu (* y y)]
+    (Math/sqrt (+ bla blu)))) 3 5)
+
+  (val (clojure.lang.MapEntry. :a :b))
+
+  (val (first {:one :two}))
+;;=> :two
+
+(seq (into (sorted-map) {:key1 "value1" :key2 "value2"}))
+;;=> ([:key1 "value1"] [:key2 "value2"])
+
+(let [x 42]
+         (+ x x))
+;=> 84
