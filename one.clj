@@ -66,3 +66,7 @@ true
 (let [x 42]
          (+ x x))
 ;=> 84
+
+((defn do-a-thing [x]
+  (let [bli (+ x x)]
+  (Math/sqrt (+ bli bli)))) 3) ;=> 3.4641016151377544
